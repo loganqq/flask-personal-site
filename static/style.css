@@ -6,6 +6,8 @@ body {
 .topnav {
     background-color: #333;
     overflow: hidden;
+    text-align: center;
+    margin: auto;
 }
 
 .topnav a {
@@ -23,6 +25,10 @@ body {
 }
 
 .topnav a.active {
-    background-color: #04aa6d;
+    background-color: #e999e2;
     color: white;
+}
+
+.portrait img {
+    border-radius: 50%;
 }
